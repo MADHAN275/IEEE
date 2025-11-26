@@ -18,7 +18,7 @@ const MemberModal = ({ member, onClose }) => {
           animate={{ scale: 1, opacity: 1 }}
           exit={{ scale: 0.9, opacity: 0 }}
           transition={{ duration: 0.3 }}
-          className="bg-gray-900 bg-opacity-70 border border-gray-700 rounded-2xl shadow-2xl max-w-4xl w-full relative overflow-hidden"
+          className="bg-gray-900 bg-opacity-70 border border-gray-700 rounded-2xl shadow-2xl max-w-2xl w-full relative overflow-hidden"
           onClick={(e) => e.stopPropagation()}
         >
           <div className="absolute top-0 right-0 p-4">
@@ -35,10 +35,10 @@ const MemberModal = ({ member, onClose }) => {
             <div className="md:w-1/2">
               <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
             </div>
-            <div className="md:w-1/2 p-8 flex flex-col justify-center">
-              <h2 className="text-4xl font-bold text-white mb-2">{member.name}</h2>
-              <p className="text-xl text-blue-400 font-semibold mb-6">{member.role}</p>
-              <p className="text-gray-300 text-lg leading-relaxed">{member.description}</p>
+            <div className="md:w-1/2 p-6 flex flex-col justify-center">
+              <h2 className="text-3xl font-bold text-white mb-2">{member.name}</h2>
+              <p className="text-lg text-blue-400 font-semibold mb-6">{member.role}</p>
+              <p className="text-base text-gray-300 leading-relaxed">{member.description}</p>
             </div>
           </div>
         </motion.div>
