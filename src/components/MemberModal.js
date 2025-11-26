@@ -18,7 +18,7 @@ const MemberModal = ({ member, onClose }) => {
           animate={{ scale: 1, opacity: 1 }}
           exit={{ scale: 0.9, opacity: 0 }}
           transition={{ duration: 0.3 }}
-          className="bg-gray-900 bg-opacity-70 border border-gray-700 rounded-2xl shadow-2xl max-w-2xl w-full relative overflow-hidden"
+          className="bg-gray-900 bg-opacity-70 border border-gray-700 rounded-2xl shadow-2xl max-w-sm md:max-w-2xl w-full relative overflow-hidden"
           onClick={(e) => e.stopPropagation()}
         >
           <div className="absolute top-0 right-0 p-4">
