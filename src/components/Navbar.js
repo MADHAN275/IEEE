@@ -17,7 +17,7 @@ const Navbar = () => {
       className="fixed top-0 left-0 right-0 z-50 bg-black/50 backdrop-blur-xl text-white p-4 shadow-lg"
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <a href="#home" className="flex items-center text-2xl font-bold text-white uppercase">
+        <a href="#home" className="flex items-center text-2xl font-bold text-white">
           <img src="/KITS.png" alt="KITS Logo" className="h-8 mr-2 object-contain" />
           <img src="/IEEE LOGO.png" alt="IEEE CS KITS Logo" className="h-8 mr-2 object-contain" />
           <span>IEEE CS KITS</span>
@@ -28,7 +28,7 @@ const Navbar = () => {
               <a
                 key={link.to}
                 href={link.to}
-                className="uppercase font-bold hover:text-gray-400 relative"
+                className="font-bold hover:text-gray-400 relative"
                 onMouseEnter={() => setHoveredLink(link.to)}
                 onMouseLeave={() => setHoveredLink(null)}
               >
