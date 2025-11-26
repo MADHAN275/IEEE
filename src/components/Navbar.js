@@ -11,7 +11,6 @@ const links = [
 ];
 
 const Navbar = () => {
-  const [hoveredLink, setHoveredLink] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
 

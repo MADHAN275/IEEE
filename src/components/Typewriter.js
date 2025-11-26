@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
 
 const Typewriter = ({ text, delay }) => {
   const [currentText, setCurrentText] = useState('');
