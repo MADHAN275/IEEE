@@ -33,7 +33,7 @@ const MemberModal = ({ member, onClose }) => {
           </div>
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2">
-              <img src={member.image} alt={member.name} className="w-full h-48 md:h-full object-cover" />
+              <img src={member.image} alt={member.name} className="w-full h-48 md:h-full object-contain" />
             </div>
             <div className="md:w-1/2 p-4 md:p-6 flex flex-col justify-center">
               <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">{member.name}</h2>
