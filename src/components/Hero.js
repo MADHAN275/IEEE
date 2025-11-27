@@ -4,7 +4,7 @@ import Typewriter from './Typewriter';
 
 const Hero = () => {
   const headline = "IEEE Computer Society";
-  const tagline1 = "Division of Computer Science Engineering";
+  const tagline1 = "Division of Computer Science and Engineering";
   const tagline2 = "Karunya Institute of Technology and Sciences";
 
   const sentence = {
