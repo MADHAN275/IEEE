@@ -4,7 +4,8 @@ import Typewriter from './Typewriter';
 
 const Hero = () => {
   const headline = "IEEE Computer Society";
-  const tagline = "Karunya Institute of Technology and Sciences";
+  const tagline1 = "Division of Computer Science Engineering";
+  const tagline2 = "Karunya Institute of Technology and Sciences";
 
   const sentence = {
     hidden: { opacity: 1 },
@@ -42,9 +43,14 @@ const Hero = () => {
             );
           })}
         </motion.h1>
-        <p className="text-md sm:text-lg md:text-2xl mb-8">
-          <Typewriter text={tagline} delay={100} />
-        </p>
+        <div className="text-md sm:text-lg md:text-2xl mb-8">
+          <p>
+            <Typewriter text={tagline1} delay={100} />
+          </p>
+          <p>
+            <Typewriter text={tagline2} delay={100} />
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import MemberModal from '../components/MemberModal';
 
 const facultyAdvisors = [
   { name: 'Dr. J. Immanuel Johnraja', role: 'HOD CSE', image: '/Immanuel Johnraja - Head Of Division (CSE).jpeg', description: 'As the Head of the Computer Science Engineering Department, Dr. J. Immanuel Johnraja provides strategic oversight and academic leadership to the department, fostering an environment of innovation and excellence.' },
-  { name: 'Dr. Naveen Sundar', role: 'Faculty Counselor', image: '/Dr.Naveen Sundar - Faculty Counselor.jpeg', description: 'Dr. Naveen Sundar serves as the Faculty Counselor, offering guidance and support to the students of the IEEE Computer Society chapter, and ensuring their activities align with the academic goals of the institution.' },
+  { name: 'Dr. Naveen Sundar', role: 'Faculty Counselor', image: '/Dr.Naveen Sundar - Faculty Counselor.png', description: 'Dr. Naveen Sundar serves as the Faculty Counselor, offering guidance and support to the students of the IEEE Computer Society chapter, and ensuring their activities align with the academic goals of the institution.' },
 ];
 
 const executiveCommittee = [
